@@ -1,0 +1,136 @@
+/*
+backgroud : #F0E9D2;
+light blue: #678983;
+#E6DDC4; -- fontes dos botoes -- 
+dark blue: #181D31; -- botoes -- fontes
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+body {
+    background-color: #F0E9D2;
+    font-family: 'Dongle', sans-serif;
+    color: #181D31;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.cabecalho {
+    margin: 70px;
+}
+
+.container {
+    width: 320px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 60px;
+    box-shadow: 2px 2px 10px -3px #678983;
+    text-align: center;
+}
+
+.row {
+    padding: 10px;
+}
+
+.row table {
+    margin: auto;
+}
+
+.row input, input:active {
+    width: 270px;
+    outline: none;
+    border: none;
+    background-color: #F0E9D2;
+    color: #181D31;
+    text-align: right;
+    font-family: 'Dongle', sans-serif;
+    font-weight: bolder;
+}
+
+.visor {
+    height: 50px;
+    font-size: 85px;
+    margin-bottom: 15px;
+}
+
+.fila {
+    height: 25px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.tabelaBotoes {
+    text-align: center;
+}
+
+.tabelaIgual {
+    width: 300px;
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    font-family: 'Dongle', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 1px 1px 8px -5px #678983;
+}
+
+.btn-num {
+    background-color: #678983;
+    color: white;
+    line-height: 10px;
+    padding-top: 10px;
+}
+
+.btn-num:hover {
+    box-shadow: 1px 1px 15px -5px #181D31;
+    transition: .1s;
+}
+
+.btn-num:active {
+    background-color: #546e6b;
+    transition: .05s;
+}
+
+.btn-op {
+    background-color: #181D31;
+    color: white;
+    line-height: 10px;
+    padding-top: 5px;
+}
+
+.btn-mais {
+    line-height: 10px;
+    padding-top: 12px;
+}
+
+.btn-igual {
+    line-height: 10px;
+    padding-top: 10px;
+    width: 285px;
+}
+
+.btn-op:hover {
+    box-shadow: 1px 1px 15px -2px #181D31;
+    transition: .1s;
+}
+
+.btn-op:active {
+    color: #232a46;
+    transition: .05s;
+}
+
+footer {
+    text-align: center;
+    color: #181D31;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 2px 2px 10px -3px #678983;
+    border-radius: 60px;
+    width: 270px;
+}

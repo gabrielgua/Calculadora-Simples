@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Gabriel">
+        <meta name="description" content="Calculadora Simples feita com HTML, CSS e JS.">
+        <title>Calculadora Simples</title>
+        <link href="style/style.css" rel="stylesheet"/>
+
+    </head>
+    <body>
+        
+        <header class="cabecalho"></header>
+        <div class="container">
+            <div class="row">
+                <table class="tabelaBotoes">
+                    <tr><input class="fila" type="text" id="texto2" value="" readonly></tr><br>
+                    <tr><input class="visor" type="text" id="texto" value="" readonly></tr>
+                    <tr>
+                        <td><button type="button" id="b7" class="btn btn-num">7</button></td>
+                        <td><button type="button" id="b8" class="btn btn-num">8</button></td>
+                        <td><button type="button" id="b9" class="btn btn-num">9</button></td>
+                        <td><button type="button" id="bMais" class="btn btn-op btn-mais">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" id="b4" class="btn btn-num">4</button></td>
+                        <td><button type="button" id="b5" class="btn btn-num">5</button></td>
+                        <td><button type="button" id="b6" class="btn btn-num">6</button></td>
+                        <td><button type="button" id="bMenos" class="btn btn-op">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" id="b1" class="btn btn-num">1</button></td>
+                        <td><button type="button" id="b2" class="btn btn-num">2</button></td>
+                        <td><button type="button" id="b3" class="btn btn-num">3</button></td>
+                        <td><button type="button" id="bMp" class="btn btn-op">x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button style="color: #181D31;" type="button" id="bPonto" class="btn btn-num">.</button></td>
+                        <td><button type="button" id="b0" class="btn btn-num">0</button></td>
+                        <td><button style="color: #181D31;" type="button" id="bApagar" class="btn btn-num">c</button></td>
+                        <td><button type="button" id="bDivisao" class="btn btn-op">/</button></td>
+                    </tr>
+                   
+                </table>
+                <table class="tabelaIgual">
+                    <tr>
+                        <td><button type="button" id="bIgual" class="btn btn-igual btn-op">=</button></td>
+                    </tr>
+                </table>
+            </div>
+
+            <script src="js/script.js"></script>
+        </div>
+        <footer>@ Gabriel Guaitanele Niszczak.</footer>
+    </body>
+</html>
